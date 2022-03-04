@@ -1,0 +1,12 @@
+C:\Users\NAILI AMALIA PUTRI\AppData\Local\Temporary Projects\SI Bakery\bin\Debug\SI Bakery.exe.config
+D:\SEMESTER 6\PAPSI\SI Bakery\SI Bakery\bin\Debug\SI Bakery.exe.config
+D:\SEMESTER 6\PAPSI\SI Bakery\SI Bakery\bin\Debug\SI Bakery.exe
+D:\SEMESTER 6\PAPSI\SI Bakery\SI Bakery\bin\Debug\SI Bakery.pdb
+D:\SEMESTER 6\PAPSI\SI Bakery\SI Bakery\bin\Debug\SI Bakery.xml
+D:\SEMESTER 6\PAPSI\SI Bakery\SI Bakery\obj\Debug\SI Bakery.vbprojResolveAssemblyReference.cache
+D:\SEMESTER 6\PAPSI\SI Bakery\SI Bakery\obj\Debug\SI_Bakery.Resources.resources
+D:\SEMESTER 6\PAPSI\SI Bakery\SI Bakery\obj\Debug\SI Bakery.vbproj.GenerateResource.Cache
+D:\SEMESTER 6\PAPSI\SI Bakery\SI Bakery\obj\Debug\SI Bakery.exe
+D:\SEMESTER 6\PAPSI\SI Bakery\SI Bakery\obj\Debug\SI Bakery.xml
+D:\SEMESTER 6\PAPSI\SI Bakery\SI Bakery\obj\Debug\SI Bakery.pdb
+D:\SEMESTER 6\PAPSI\SI Bakery\SI Bakery\obj\Debug\SI_Bakery.Form1.resources
