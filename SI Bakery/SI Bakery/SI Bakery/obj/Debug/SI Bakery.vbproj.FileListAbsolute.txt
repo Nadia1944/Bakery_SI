@@ -27,3 +27,9 @@ C:\Users\ASUS\Music\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\obj\Debug\SI Bakery.
 C:\Users\ASUS\Music\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\obj\Debug\SI Bakery.xml
 C:\Users\ASUS\Music\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\obj\Debug\SI Bakery.pdb
 C:\Users\ASUS\Music\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\obj\Debug\SI_Bakery.Kasir.resources
+D:\SEMESTER 6\PAPSI\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\obj\Debug\SI Bakery.vbprojResolveAssemblyReference.cache
+D:\SEMESTER 6\PAPSI\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\obj\Debug\SI_Bakery.Data_Menu.resources
+D:\SEMESTER 6\PAPSI\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\obj\Debug\SI_Bakery.Form1.resources
+D:\SEMESTER 6\PAPSI\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\obj\Debug\SI_Bakery.Kasir.resources
+D:\SEMESTER 6\PAPSI\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\obj\Debug\SI_Bakery.Resources.resources
+D:\SEMESTER 6\PAPSI\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\obj\Debug\SI Bakery.vbproj.GenerateResource.Cache
