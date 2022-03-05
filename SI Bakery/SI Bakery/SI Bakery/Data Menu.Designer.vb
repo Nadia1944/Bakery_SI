@@ -70,7 +70,7 @@ Partial Class Data_Menu
         '
         Me.DGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DGV.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3, Me.Column4, Me.Column5, Me.Column6})
-        Me.DGV.Location = New System.Drawing.Point(14, 20)
+        Me.DGV.Location = New System.Drawing.Point(14, 29)
         Me.DGV.Name = "DGV"
         Me.DGV.Size = New System.Drawing.Size(402, 242)
         Me.DGV.TabIndex = 0
@@ -300,7 +300,7 @@ Partial Class Data_Menu
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
         Me.Name = "Data_Menu"
-        Me.Text = "Data_Menu"
+        Me.Text = "Data Menu"
         Me.GroupBox3.ResumeLayout(False)
         CType(Me.DGV, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox2.ResumeLayout(False)

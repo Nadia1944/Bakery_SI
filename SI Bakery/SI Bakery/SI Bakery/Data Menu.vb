@@ -32,7 +32,7 @@
 
     Sub TampilkanData()
         Call koneksiDB()
-        DA = New OleDb.OleDbDataAdapter("select * from SI Bakery ", Conn)
+        DA = New OleDb.OleDbDataAdapter("select * from Menu", Conn)
         DS = New DataSet
         DA.Fill(DS)
         DGV.DataSource = DS.Tables(0)
@@ -76,7 +76,7 @@
             If Not DM.HasRows Then
                 Call koneksiDB()
                 Dim simpan As String
-                simpan = "insert into Menu values ('" & txt_id.Text & "', '" & txt_nama.Text & "', '" & cmb_jenis.Text & "','" & txt_varian.Text & "','" & txt_harga.Text & "','" & txt_stok.Text & "','"
+                simpan = "insert into Menu values ('" & txt_id.Text & "', '" & txt_nama.Text & "', '" & cmb_jenis.Text & "','" & txt_varian.Text & "','" & txt_harga.Text & "','" & txt_stok.Text & "')"
                 CMD = New OleDb.OleDbCommand(simpan, Conn)
                 CMD.ExecuteNonQuery()
                 MsgBox("Input Data Sukses")
@@ -89,7 +89,7 @@
         End If
     End Sub
 
-    Private Sub DataGridView1_CellContentClick(ByVal sender As System.Object, ByVal e As DataGridViewCellEventArgs) Handles DGV.CellContentClick
+    Private Sub DGV_CellMouseclick(ByVal sender As System.Object, ByVal e As System.Windows.Forms.DataGridViewCellMouseEventArgs) Handles DGV.CellMouseClick
         On Error Resume Next
         txt_id.Text = DGV.Rows(e.RowIndex).Cells(0).Value
         txt_nama.Text = DGV.Rows(e.RowIndex).Cells(1).Value
@@ -132,7 +132,7 @@
             Exit Sub
             'Coding berfungsi untuk mengecek , jika tidak ada data yang dipilih untuk dihapus , maka akan tampil pesan diatas 
         Else
-            If MessageBox.Show("Are you sure to delete this data ? ", "Konfirmasi", MessageBoxButtons.YesNoCancel) = Windows.Forms.DialogResult.Yes Then
+            If MessageBox.Show("Are you sure to delete this data ? ", "Konfirmasi", MessageBoxButtons.YesNoCancel) = System.Windows.Forms.DialogResult.Yes Then
                 'Coding berfungsi untuk memberi konfirmasi ke user , apakah yakin untuk mendelete data 
                 'Jika yakin , maka akan berjalan coding dibawah ini untuk mendelete data yang dipilih 
                 Call koneksiDB()

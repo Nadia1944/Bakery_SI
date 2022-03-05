@@ -33,3 +33,6 @@ D:\SEMESTER 6\PAPSI\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\obj\Debug\SI_Bakery.
 D:\SEMESTER 6\PAPSI\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\obj\Debug\SI_Bakery.Kasir.resources
 D:\SEMESTER 6\PAPSI\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\obj\Debug\SI_Bakery.Resources.resources
 D:\SEMESTER 6\PAPSI\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\obj\Debug\SI Bakery.vbproj.GenerateResource.Cache
+D:\SEMESTER 6\PAPSI\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\bin\Debug\SI Bakery.exe
+D:\SEMESTER 6\PAPSI\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\bin\Debug\SI Bakery.pdb
+D:\SEMESTER 6\PAPSI\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\bin\Debug\SI Bakery.xml
