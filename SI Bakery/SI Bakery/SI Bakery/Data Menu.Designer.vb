@@ -24,12 +24,6 @@ Partial Class Data_Menu
     Private Sub InitializeComponent()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
         Me.DGV = New System.Windows.Forms.DataGridView()
-        Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column5 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column6 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.btn_exit = New System.Windows.Forms.Button()
         Me.btn_cancel = New System.Windows.Forms.Button()
@@ -69,41 +63,10 @@ Partial Class Data_Menu
         'DGV
         '
         Me.DGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DGV.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3, Me.Column4, Me.Column5, Me.Column6})
         Me.DGV.Location = New System.Drawing.Point(14, 29)
         Me.DGV.Name = "DGV"
         Me.DGV.Size = New System.Drawing.Size(402, 242)
         Me.DGV.TabIndex = 0
-        '
-        'Column1
-        '
-        Me.Column1.HeaderText = "ID Menu"
-        Me.Column1.Name = "Column1"
-        '
-        'Column2
-        '
-        Me.Column2.HeaderText = "Nama"
-        Me.Column2.Name = "Column2"
-        '
-        'Column3
-        '
-        Me.Column3.HeaderText = "Jenis"
-        Me.Column3.Name = "Column3"
-        '
-        'Column4
-        '
-        Me.Column4.HeaderText = "Varian"
-        Me.Column4.Name = "Column4"
-        '
-        'Column5
-        '
-        Me.Column5.HeaderText = "Harga"
-        Me.Column5.Name = "Column5"
-        '
-        'Column6
-        '
-        Me.Column6.HeaderText = "Stok"
-        Me.Column6.Name = "Column6"
         '
         'GroupBox2
         '
@@ -251,6 +214,7 @@ Partial Class Data_Menu
         'cmb_jenis
         '
         Me.cmb_jenis.FormattingEnabled = True
+        Me.cmb_jenis.Items.AddRange(New Object() {"Kue Basah", "Kue Kering", "Kue Tart", "Dessert"})
         Me.cmb_jenis.Location = New System.Drawing.Point(98, 81)
         Me.cmb_jenis.Name = "cmb_jenis"
         Me.cmb_jenis.Size = New System.Drawing.Size(119, 21)
@@ -312,12 +276,6 @@ Partial Class Data_Menu
 
     Friend WithEvents GroupBox3 As GroupBox
     Friend WithEvents DGV As DataGridView
-    Friend WithEvents Column1 As DataGridViewTextBoxColumn
-    Friend WithEvents Column2 As DataGridViewTextBoxColumn
-    Friend WithEvents Column3 As DataGridViewTextBoxColumn
-    Friend WithEvents Column4 As DataGridViewTextBoxColumn
-    Friend WithEvents Column5 As DataGridViewTextBoxColumn
-    Friend WithEvents Column6 As DataGridViewTextBoxColumn
     Friend WithEvents GroupBox2 As GroupBox
     Friend WithEvents btn_exit As Button
     Friend WithEvents btn_cancel As Button
