@@ -34,7 +34,7 @@ Partial Class Kasir
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.btn_edit = New System.Windows.Forms.Button()
         Me.btn_input = New System.Windows.Forms.Button()
-        Me.umur = New System.Windows.Forms.TextBox()
+        Me.umur_kasir = New System.Windows.Forms.TextBox()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.status = New System.Windows.Forms.ComboBox()
         Me.alamat = New System.Windows.Forms.RichTextBox()
@@ -55,6 +55,8 @@ Partial Class Kasir
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.OpenFile1 = New System.Windows.Forms.OpenFileDialog()
+        Me.btn_exit = New System.Windows.Forms.Button()
         CType(Me.DGV2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
@@ -143,7 +145,7 @@ Partial Class Kasir
         '
         Me.GroupBox1.Controls.Add(Me.btn_edit)
         Me.GroupBox1.Controls.Add(Me.btn_input)
-        Me.GroupBox1.Controls.Add(Me.umur)
+        Me.GroupBox1.Controls.Add(Me.umur_kasir)
         Me.GroupBox1.Controls.Add(Me.Label12)
         Me.GroupBox1.Controls.Add(Me.status)
         Me.GroupBox1.Controls.Add(Me.alamat)
@@ -189,12 +191,12 @@ Partial Class Kasir
         Me.btn_input.Text = "Input"
         Me.btn_input.UseVisualStyleBackColor = True
         '
-        'umur
+        'umur_kasir
         '
-        Me.umur.Location = New System.Drawing.Point(103, 135)
-        Me.umur.Name = "umur"
-        Me.umur.Size = New System.Drawing.Size(141, 20)
-        Me.umur.TabIndex = 30
+        Me.umur_kasir.Location = New System.Drawing.Point(103, 135)
+        Me.umur_kasir.Name = "umur_kasir"
+        Me.umur_kasir.Size = New System.Drawing.Size(141, 20)
+        Me.umur_kasir.TabIndex = 30
         '
         'Label12
         '
@@ -366,11 +368,25 @@ Partial Class Kasir
         Me.Label1.TabIndex = 35
         Me.Label1.Text = "Selamat Datang"
         '
+        'OpenFile1
+        '
+        Me.OpenFile1.FileName = "OpenFileDialog1"
+        '
+        'btn_exit
+        '
+        Me.btn_exit.Location = New System.Drawing.Point(682, 548)
+        Me.btn_exit.Name = "btn_exit"
+        Me.btn_exit.Size = New System.Drawing.Size(65, 21)
+        Me.btn_exit.TabIndex = 48
+        Me.btn_exit.Text = "Exit"
+        Me.btn_exit.UseVisualStyleBackColor = True
+        '
         'Kasir
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(759, 560)
+        Me.ClientSize = New System.Drawing.Size(759, 581)
+        Me.Controls.Add(Me.btn_exit)
         Me.Controls.Add(Me.btnCancel)
         Me.Controls.Add(Me.lblselamat)
         Me.Controls.Add(Me.DGV2)
@@ -405,7 +421,7 @@ Partial Class Kasir
     Friend WithEvents GroupBox1 As GroupBox
     Friend WithEvents btn_edit As Button
     Friend WithEvents btn_input As Button
-    Friend WithEvents umur As TextBox
+    Friend WithEvents umur_kasir As TextBox
     Friend WithEvents Label12 As Label
     Friend WithEvents status As ComboBox
     Friend WithEvents alamat As RichTextBox
@@ -426,4 +442,6 @@ Partial Class Kasir
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
+    Friend WithEvents OpenFile1 As OpenFileDialog
+    Friend WithEvents btn_exit As Button
 End Class
