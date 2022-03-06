@@ -27,10 +27,6 @@ Partial Class Kasir
         Me.DGV2 = New System.Windows.Forms.DataGridView()
         Me.btn_simpan = New System.Windows.Forms.Button()
         Me.btn_delete = New System.Windows.Forms.Button()
-        Me.foto_diri = New System.Windows.Forms.TextBox()
-        Me.Label11 = New System.Windows.Forms.Label()
-        Me.btn_browse = New System.Windows.Forms.Button()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.btn_edit = New System.Windows.Forms.Button()
         Me.btn_input = New System.Windows.Forms.Button()
@@ -58,7 +54,6 @@ Partial Class Kasir
         Me.OpenFile1 = New System.Windows.Forms.OpenFileDialog()
         Me.btn_exit = New System.Windows.Forms.Button()
         CType(Me.DGV2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -86,7 +81,7 @@ Partial Class Kasir
         Me.DGV2.Location = New System.Drawing.Point(45, 451)
         Me.DGV2.Name = "DGV2"
         Me.DGV2.RowHeadersWidth = 51
-        Me.DGV2.Size = New System.Drawing.Size(661, 91)
+        Me.DGV2.Size = New System.Drawing.Size(661, 118)
         Me.DGV2.TabIndex = 43
         '
         'btn_simpan
@@ -106,40 +101,6 @@ Partial Class Kasir
         Me.btn_delete.TabIndex = 41
         Me.btn_delete.Text = "Delete"
         Me.btn_delete.UseVisualStyleBackColor = True
-        '
-        'foto_diri
-        '
-        Me.foto_diri.Location = New System.Drawing.Point(549, 339)
-        Me.foto_diri.Name = "foto_diri"
-        Me.foto_diri.Size = New System.Drawing.Size(161, 20)
-        Me.foto_diri.TabIndex = 40
-        '
-        'Label11
-        '
-        Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(449, 339)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(52, 13)
-        Me.Label11.TabIndex = 39
-        Me.Label11.Text = "Foto Diri :"
-        '
-        'btn_browse
-        '
-        Me.btn_browse.Location = New System.Drawing.Point(634, 302)
-        Me.btn_browse.Name = "btn_browse"
-        Me.btn_browse.Size = New System.Drawing.Size(76, 31)
-        Me.btn_browse.TabIndex = 38
-        Me.btn_browse.Text = "Browse"
-        Me.btn_browse.UseVisualStyleBackColor = True
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.Location = New System.Drawing.Point(452, 58)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(254, 237)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox1.TabIndex = 37
-        Me.PictureBox1.TabStop = False
         '
         'GroupBox1
         '
@@ -374,9 +335,9 @@ Partial Class Kasir
         '
         'btn_exit
         '
-        Me.btn_exit.Location = New System.Drawing.Point(682, 548)
+        Me.btn_exit.Location = New System.Drawing.Point(630, 408)
         Me.btn_exit.Name = "btn_exit"
-        Me.btn_exit.Size = New System.Drawing.Size(65, 21)
+        Me.btn_exit.Size = New System.Drawing.Size(76, 32)
         Me.btn_exit.TabIndex = 48
         Me.btn_exit.Text = "Exit"
         Me.btn_exit.UseVisualStyleBackColor = True
@@ -392,16 +353,11 @@ Partial Class Kasir
         Me.Controls.Add(Me.DGV2)
         Me.Controls.Add(Me.btn_simpan)
         Me.Controls.Add(Me.btn_delete)
-        Me.Controls.Add(Me.foto_diri)
-        Me.Controls.Add(Me.Label11)
-        Me.Controls.Add(Me.btn_browse)
-        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Kasir"
         Me.Text = "Kasir"
         CType(Me.DGV2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         Me.ResumeLayout(False)
@@ -414,10 +370,6 @@ Partial Class Kasir
     Friend WithEvents DGV2 As DataGridView
     Friend WithEvents btn_simpan As Button
     Friend WithEvents btn_delete As Button
-    Friend WithEvents foto_diri As TextBox
-    Friend WithEvents Label11 As Label
-    Friend WithEvents btn_browse As Button
-    Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents GroupBox1 As GroupBox
     Friend WithEvents btn_edit As Button
     Friend WithEvents btn_input As Button

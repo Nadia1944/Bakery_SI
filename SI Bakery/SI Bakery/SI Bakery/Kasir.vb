@@ -12,7 +12,7 @@ Public Class Kasir
         no_hp.Text = ""
         alamat.Text = ""
         status.Text = ""
-        foto_diri.Text = ""
+        'foto_diri.Text = ""
         id_kasir.Focus()
     End Sub
     Sub MatikanForm()
@@ -26,7 +26,7 @@ Public Class Kasir
         no_hp.Enabled = False
         alamat.Enabled = False
         status.Enabled = False
-        foto_diri.Enabled = False
+        'foto_diri.Enabled = False
     End Sub
     Sub HidupkanForm()
         id_kasir.Enabled = True
@@ -39,7 +39,7 @@ Public Class Kasir
         no_hp.Enabled = True
         alamat.Enabled = True
         status.Enabled = True
-        foto_diri.Enabled = True
+        'foto_diri.Enabled = True
     End Sub
     Sub TampilkanData()
         Call koneksiDB()
@@ -49,9 +49,9 @@ Public Class Kasir
         DGV2.DataSource = DS.Tables(0)
         DGV2.ReadOnly = True
     End Sub
-    Sub Foto1()
-        PictureBox1.ImageLocation = ""
-    End Sub
+    'Sub Foto1()
+    '    PictureBox1.ImageLocation = ""
+    'End Sub
     Private Sub Data_Karyawan_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         TampilkanData()
     End Sub
@@ -92,15 +92,15 @@ Public Class Kasir
     Private Sub btn_edit_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btn_edit.Click
         If id_kasir.Text = "" Or nama_kasir.Text = "" Or tempat_lahir.Text = "" Or
            agama.Text = "" Or jenis_kelamin.Text = "" Or no_hp.Text = "" Or alamat.Text = "" Or
-           status.Text = "" Or foto_diri.Text = "" Then
+           status.Text = "" Then 'Or foto_diri.Text = ""
             MsgBox("Data Kasir Belum Lengkap")
             Exit Sub
         Else
             Call koneksiDB()
             CMD = New OleDb.OleDbCommand("update Kasir set nama_kasir = '" & nama_kasir.Text & "', tempat_lahir = '" & tempat_lahir.Text & "',
            agama = '" & agama.Text & "',jenis_kelamin = '" & jenis_kelamin.Text & "',  no_hp = '" &
-           no_hp.Text & "', alamat = '" & alamat.Text & "', status = '" & status.Text & "', foto_diri = '" &
-           foto_diri.Text & "'Where id_kasir = '" & id_kasir.Text & "'", Conn)
+           no_hp.Text & "', alamat = '" & alamat.Text & "', status = '" & status.Text & "' Where id_kasir = '" & id_kasir.Text & "'", Conn)
+            ', foto_diri = '" & foto_diri.Text & "'
             DM = CMD.ExecuteReader
             MsgBox("Update Data Berhasil")
         End If
@@ -110,7 +110,7 @@ Public Class Kasir
     End Sub
     Private Sub btn_simpan_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btn_simpan.Click
         If id_kasir.Text = "" Or nama_kasir.Text = "" Or tempat_lahir.Text = "" Or
-            agama.Text = "" Or jenis_kelamin.Text = "" Or no_hp.Text = "" Or alamat.Text = "" Or status.Text = "" Or foto_diri.Text = "" Then
+            agama.Text = "" Or jenis_kelamin.Text = "" Or no_hp.Text = "" Or alamat.Text = "" Or status.Text = "" Then 'Or foto_diri.Text = ""
             MsgBox("Data Kasir Belum Lengkap")
             Exit Sub
         Else
@@ -121,11 +121,12 @@ Public Class Kasir
             If Not DM.HasRows Then
                 Call koneksiDB()
                 Dim simpan As String
-                simpan = "insert into Kasir values ('" & id_kasir.Text & "', '" & nama_kasir.Text & "', '" & tempat_lahir.Text & "','" & DateTimePicker1.Value & "','" & umur_kasir.Text & "','" & agama.Text & "','" & jenis_kelamin.Text & "','" & no_hp.Text & "','" & alamat.Text & "', '" & status.Text & "','" & foto_diri.Text & "')"
+                simpan = "insert into Kasir values ('" & id_kasir.Text & "', '" & nama_kasir.Text & "', '" & tempat_lahir.Text & "','" & DateTimePicker1.Value & "','" & umur_kasir.Text & "','" & agama.Text & "','" & jenis_kelamin.Text & "','" & no_hp.Text & "','" & alamat.Text & "', 
+                          '" & status.Text & "')" ','" & foto_diri.Text & "'
                 CMD = New OleDb.OleDbCommand(simpan, Conn)
                 CMD.ExecuteNonQuery()
                 MsgBox("Input Data Sukses")
-                Call Foto1()
+                'Call Foto1()
             Else
                 MsgBox("Data Sudah Ada")
             End If
@@ -150,15 +151,15 @@ Public Class Kasir
         id_kasir.Enabled = False
     End Sub
 
-    Private Sub btn_browse_Click(sender As Object, e As EventArgs) Handles btn_browse.Click
-        OpenFile1.Filter = " Image File
-(*.jpeg;*jpg;*.png;*.bmp;*.gif)| *.jpeg;*jpg;*.png;*.bmp;*.gif"
-        OpenFile1.RestoreDirectory = True
-        OpenFile1.ShowDialog()
-        If OpenFile1.FileName = "" Then Exit Sub
-        PictureBox1.ImageLocation = OpenFile1.FileName
-        foto_diri.Text = OpenFile1.FileName
-    End Sub
+    '    Private Sub btn_browse_Click(sender As Object, e As EventArgs) Handles btn_browse.Click
+    '        OpenFile1.Filter = " Image File
+    '(*.jpeg;*jpg;*.png;*.bmp;*.gif)| *.jpeg;*jpg;*.png;*.bmp;*.gif"
+    '        OpenFile1.RestoreDirectory = True
+    '        OpenFile1.ShowDialog()
+    '        If OpenFile1.FileName = "" Then Exit Sub
+    '        PictureBox1.ImageLocation = OpenFile1.FileName
+    '        foto_diri.Text = OpenFile1.FileName
+    '    End Sub
 
     Private Sub btn_exit_Click(sender As Object, e As EventArgs) Handles btn_exit.Click
         Me.Close()
@@ -182,11 +183,11 @@ Public Class Kasir
                 no_hp.Text = DM.Item("no_hp")
                 alamat.Text = DM.Item("alamat")
                 status.Text = DM.Item("status")
-                foto_diri.Text = DM.Item("foto_diri")
-                Dim nas As String
-                nas = foto_diri.Text
+                'foto_diri.Text = DM.Item("foto_diri")
+                'Dim nas As String
+                'nas = foto_diri.Text
                 'PictureBox1.ImageLocation = Replace((DM("Photo")), ";", "\")
-                PictureBox1.Image = New Bitmap(nas)
+                'PictureBox1.Image = New Bitmap(nas)
             End If
         Catch ex As Exception
             MsgBox(ex.ToString())
