@@ -89,20 +89,6 @@
         End If
     End Sub
 
-    Private Sub DGV_CellMouseclick(ByVal sender As System.Object, ByVal e As System.Windows.Forms.DataGridViewCellMouseEventArgs) Handles DGV.CellMouseClick
-        On Error Resume Next
-        txt_id.Text = DGV.Rows(e.RowIndex).Cells(0).Value
-        txt_nama.Text = DGV.Rows(e.RowIndex).Cells(1).Value
-        cmb_jenis.Text = DGV.Rows(e.RowIndex).Cells(2).Value
-        txt_varian.Text = DGV.Rows(e.RowIndex).Cells(3).Value
-        txt_harga.Text = DGV.Rows(e.RowIndex).Cells(4).Value
-        txt_stok.Text = DGV.Rows(e.RowIndex).Cells(5).Value
-        'Coding ini berfungsi , ketika kita mau mengedit data ,caranya kita arahkan mouse ke salah satu cell yang di Data Grid View , maka data dari cell tersebut akan masuk ke dalam field yang ada form
-        'Cell(0) , Cell(1) dst artinya : dimulai dari Cell ke O , 1 dan eterusnya
-        Call HidupkanForm()
-        txt_id.Enabled = False 'Ketika mengedit , kita tidak bisa mengedit kode buku nya , kita hanya bisa mengedit di field2 lainnya
-    End Sub
-
     Private Sub btn_edit_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btn_edit.Click
         If txt_id.Text = "" Or txt_nama.Text = "" Or cmb_jenis.Text =
 "" Or txt_varian.Text = "" Or txt_harga.Text = "" Or txt_stok.Text =
@@ -147,5 +133,19 @@
                 Call TampilkanData()
             End If
         End If
+    End Sub
+
+    Private Sub DGV_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DGV.CellContentClick
+        On Error Resume Next
+        txt_id.Text = DGV.Rows(e.RowIndex).Cells(0).Value
+        txt_nama.Text = DGV.Rows(e.RowIndex).Cells(1).Value
+        cmb_jenis.Text = DGV.Rows(e.RowIndex).Cells(2).Value
+        txt_varian.Text = DGV.Rows(e.RowIndex).Cells(3).Value
+        txt_harga.Text = DGV.Rows(e.RowIndex).Cells(4).Value
+        txt_stok.Text = DGV.Rows(e.RowIndex).Cells(5).Value
+        'Coding ini berfungsi , ketika kita mau mengedit data ,caranya kita arahkan mouse ke salah satu cell yang di Data Grid View , maka data dari cell tersebut akan masuk ke dalam field yang ada form
+        'Cell(0) , Cell(1) dst artinya : dimulai dari Cell ke O , 1 dan eterusnya
+        Call HidupkanForm()
+        txt_id.Enabled = False 'Ketika mengedit , kita tidak bisa mengedit kode buku nya , kita hanya bisa mengedit di field2 lainnya
     End Sub
 End Class
