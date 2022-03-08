@@ -57,7 +57,7 @@ Partial Class Kasir
         '
         'btnExit
         '
-        Me.btnExit.Location = New System.Drawing.Point(603, 374)
+        Me.btnExit.Location = New System.Drawing.Point(584, 329)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(73, 34)
         Me.btnExit.TabIndex = 47
@@ -66,7 +66,7 @@ Partial Class Kasir
         '
         'btnCancel
         '
-        Me.btnCancel.Location = New System.Drawing.Point(517, 329)
+        Me.btnCancel.Location = New System.Drawing.Point(506, 284)
         Me.btnCancel.Name = "btnCancel"
         Me.btnCancel.Size = New System.Drawing.Size(73, 31)
         Me.btnCancel.TabIndex = 46
@@ -76,7 +76,7 @@ Partial Class Kasir
         'DGV2
         '
         Me.DGV2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DGV2.Location = New System.Drawing.Point(22, 443)
+        Me.DGV2.Location = New System.Drawing.Point(12, 404)
         Me.DGV2.Name = "DGV2"
         Me.DGV2.RowHeadersWidth = 51
         Me.DGV2.Size = New System.Drawing.Size(658, 98)
@@ -84,7 +84,7 @@ Partial Class Kasir
         '
         'btn_simpan
         '
-        Me.btn_simpan.Location = New System.Drawing.Point(428, 328)
+        Me.btn_simpan.Location = New System.Drawing.Point(426, 283)
         Me.btn_simpan.Name = "btn_simpan"
         Me.btn_simpan.Size = New System.Drawing.Size(73, 31)
         Me.btn_simpan.TabIndex = 42
@@ -93,7 +93,7 @@ Partial Class Kasir
         '
         'btn_delete
         '
-        Me.btn_delete.Location = New System.Drawing.Point(603, 330)
+        Me.btn_delete.Location = New System.Drawing.Point(585, 285)
         Me.btn_delete.Name = "btn_delete"
         Me.btn_delete.Size = New System.Drawing.Size(73, 31)
         Me.btn_delete.TabIndex = 41
@@ -124,7 +124,7 @@ Partial Class Kasir
         Me.GroupBox1.Controls.Add(Me.Label4)
         Me.GroupBox1.Controls.Add(Me.Label3)
         Me.GroupBox1.Controls.Add(Me.Label2)
-        Me.GroupBox1.Location = New System.Drawing.Point(54, 50)
+        Me.GroupBox1.Location = New System.Drawing.Point(53, 8)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(369, 384)
         Me.GroupBox1.TabIndex = 36
@@ -325,7 +325,7 @@ Partial Class Kasir
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(707, 563)
+        Me.ClientSize = New System.Drawing.Size(690, 514)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnCancel)
         Me.Controls.Add(Me.DGV2)
