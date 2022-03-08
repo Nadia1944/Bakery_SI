@@ -24,3 +24,7 @@ C:\Users\ASUS\Music\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\obj\x64\Debug\SI Bak
 C:\Users\ASUS\Music\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\obj\x64\Debug\SI Bakery.xml
 C:\Users\ASUS\Music\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\obj\x64\Debug\SI Bakery.pdb
 C:\Users\ASUS\Music\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\obj\x64\Debug\SI_Bakery.Main_Menu.resources
+D:\SEMESTER 6\PAPSI\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\bin\x64\Debug\SI Bakery.exe.config
+D:\SEMESTER 6\PAPSI\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\obj\x64\Debug\SI Bakery.exe
+D:\SEMESTER 6\PAPSI\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\obj\x64\Debug\SI Bakery.xml
+D:\SEMESTER 6\PAPSI\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\obj\x64\Debug\SI Bakery.pdb

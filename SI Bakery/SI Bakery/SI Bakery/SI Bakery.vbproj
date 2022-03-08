@@ -98,6 +98,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Data Menu.Designer.vb">
+      <DependentUpon>Data Menu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Data Menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Kasir.Designer.vb">
       <DependentUpon>Kasir.vb</DependentUpon>
     </Compile>
@@ -141,6 +147,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Data Menu.resx">
+      <DependentUpon>Data Menu.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Kasir.resx">
       <DependentUpon>Kasir.vb</DependentUpon>
     </EmbeddedResource>
