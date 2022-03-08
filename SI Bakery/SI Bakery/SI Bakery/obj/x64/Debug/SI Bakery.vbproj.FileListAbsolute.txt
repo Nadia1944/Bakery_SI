@@ -28,3 +28,15 @@ D:\SEMESTER 6\PAPSI\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\bin\x64\Debug\SI Bak
 D:\SEMESTER 6\PAPSI\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\obj\x64\Debug\SI Bakery.exe
 D:\SEMESTER 6\PAPSI\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\obj\x64\Debug\SI Bakery.xml
 D:\SEMESTER 6\PAPSI\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\obj\x64\Debug\SI Bakery.pdb
+D:\SEMESTER 6\PAPSI\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\bin\x64\Debug\SI Bakery.exe
+D:\SEMESTER 6\PAPSI\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\bin\x64\Debug\SI Bakery.pdb
+D:\SEMESTER 6\PAPSI\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\bin\x64\Debug\SI Bakery.xml
+D:\SEMESTER 6\PAPSI\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\obj\x64\Debug\SI Bakery.vbprojResolveAssemblyReference.cache
+D:\SEMESTER 6\PAPSI\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\obj\x64\Debug\SI_Bakery.Data_Menu.resources
+D:\SEMESTER 6\PAPSI\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\obj\x64\Debug\SI_Bakery.Data_Pelanggan.resources
+D:\SEMESTER 6\PAPSI\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\obj\x64\Debug\SI_Bakery.Kasir.resources
+D:\SEMESTER 6\PAPSI\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\obj\x64\Debug\SI_Bakery.Login.resources
+D:\SEMESTER 6\PAPSI\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\obj\x64\Debug\SI_Bakery.Main_Menu.resources
+D:\SEMESTER 6\PAPSI\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\obj\x64\Debug\SI_Bakery.Resources.resources
+D:\SEMESTER 6\PAPSI\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\obj\x64\Debug\SI_Bakery.Transaksi.resources
+D:\SEMESTER 6\PAPSI\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\obj\x64\Debug\SI Bakery.vbproj.GenerateResource.Cache
