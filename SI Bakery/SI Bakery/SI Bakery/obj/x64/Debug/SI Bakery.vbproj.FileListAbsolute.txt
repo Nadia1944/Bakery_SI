@@ -9,3 +9,18 @@ C:\Users\Anggis\Documents\S M T R  6 ! !\Prak APSI\Bakery_SI\SI Bakery\SI Bakery
 C:\Users\Anggis\Documents\S M T R  6 ! !\Prak APSI\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\obj\x64\Debug\SI Bakery.exe
 C:\Users\Anggis\Documents\S M T R  6 ! !\Prak APSI\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\obj\x64\Debug\SI Bakery.xml
 C:\Users\Anggis\Documents\S M T R  6 ! !\Prak APSI\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\obj\x64\Debug\SI Bakery.pdb
+C:\Users\ASUS\Music\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\bin\x64\Debug\SI Bakery.exe.config
+C:\Users\ASUS\Music\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\bin\x64\Debug\SI Bakery.exe
+C:\Users\ASUS\Music\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\bin\x64\Debug\SI Bakery.pdb
+C:\Users\ASUS\Music\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\bin\x64\Debug\SI Bakery.xml
+C:\Users\ASUS\Music\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\obj\x64\Debug\SI Bakery.vbproj.AssemblyReference.cache
+C:\Users\ASUS\Music\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\obj\x64\Debug\SI_Bakery.Kasir.resources
+C:\Users\ASUS\Music\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\obj\x64\Debug\SI_Bakery.Login.resources
+C:\Users\ASUS\Music\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\obj\x64\Debug\SI_Bakery.Resources.resources
+C:\Users\ASUS\Music\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\obj\x64\Debug\SI_Bakery.Transaksi.resources
+C:\Users\ASUS\Music\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\obj\x64\Debug\SI Bakery.vbproj.GenerateResource.cache
+C:\Users\ASUS\Music\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\obj\x64\Debug\SI Bakery.vbproj.CoreCompileInputs.cache
+C:\Users\ASUS\Music\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\obj\x64\Debug\SI Bakery.exe
+C:\Users\ASUS\Music\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\obj\x64\Debug\SI Bakery.xml
+C:\Users\ASUS\Music\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\obj\x64\Debug\SI Bakery.pdb
+C:\Users\ASUS\Music\Bakery_SI\SI Bakery\SI Bakery\SI Bakery\obj\x64\Debug\SI_Bakery.Main_Menu.resources

@@ -22,8 +22,8 @@ Partial Class Kasir
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.btnExit = New System.Windows.Forms.Button()
         Me.btnCancel = New System.Windows.Forms.Button()
-        Me.lblselamat = New System.Windows.Forms.Label()
         Me.DGV2 = New System.Windows.Forms.DataGridView()
         Me.btn_simpan = New System.Windows.Forms.Button()
         Me.btn_delete = New System.Windows.Forms.Button()
@@ -50,54 +50,52 @@ Partial Class Kasir
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.OpenFile1 = New System.Windows.Forms.OpenFileDialog()
-        Me.btn_exit = New System.Windows.Forms.Button()
         CType(Me.DGV2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
+        'btnExit
+        '
+        Me.btnExit.Location = New System.Drawing.Point(603, 374)
+        Me.btnExit.Name = "btnExit"
+        Me.btnExit.Size = New System.Drawing.Size(73, 34)
+        Me.btnExit.TabIndex = 47
+        Me.btnExit.Text = "Exit"
+        Me.btnExit.UseVisualStyleBackColor = True
+        '
         'btnCancel
         '
-        Me.btnCancel.Location = New System.Drawing.Point(548, 370)
+        Me.btnCancel.Location = New System.Drawing.Point(517, 329)
         Me.btnCancel.Name = "btnCancel"
-        Me.btnCancel.Size = New System.Drawing.Size(76, 32)
-        Me.btnCancel.TabIndex = 47
+        Me.btnCancel.Size = New System.Drawing.Size(73, 31)
+        Me.btnCancel.TabIndex = 46
         Me.btnCancel.Text = "Cancel"
         Me.btnCancel.UseVisualStyleBackColor = True
-        '
-        'lblselamat
-        '
-        Me.lblselamat.AutoSize = True
-        Me.lblselamat.Font = New System.Drawing.Font("Modern No. 20", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblselamat.Location = New System.Drawing.Point(262, -34)
-        Me.lblselamat.Name = "lblselamat"
-        Me.lblselamat.Size = New System.Drawing.Size(0, 29)
-        Me.lblselamat.TabIndex = 44
         '
         'DGV2
         '
         Me.DGV2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DGV2.Location = New System.Drawing.Point(45, 451)
+        Me.DGV2.Location = New System.Drawing.Point(22, 443)
         Me.DGV2.Name = "DGV2"
         Me.DGV2.RowHeadersWidth = 51
-        Me.DGV2.Size = New System.Drawing.Size(661, 118)
+        Me.DGV2.Size = New System.Drawing.Size(658, 98)
         Me.DGV2.TabIndex = 43
         '
         'btn_simpan
         '
-        Me.btn_simpan.Location = New System.Drawing.Point(452, 370)
+        Me.btn_simpan.Location = New System.Drawing.Point(428, 328)
         Me.btn_simpan.Name = "btn_simpan"
-        Me.btn_simpan.Size = New System.Drawing.Size(76, 32)
+        Me.btn_simpan.Size = New System.Drawing.Size(73, 31)
         Me.btn_simpan.TabIndex = 42
         Me.btn_simpan.Text = "Simpan"
         Me.btn_simpan.UseVisualStyleBackColor = True
         '
         'btn_delete
         '
-        Me.btn_delete.Location = New System.Drawing.Point(630, 370)
+        Me.btn_delete.Location = New System.Drawing.Point(603, 330)
         Me.btn_delete.Name = "btn_delete"
-        Me.btn_delete.Size = New System.Drawing.Size(76, 32)
+        Me.btn_delete.Size = New System.Drawing.Size(73, 31)
         Me.btn_delete.TabIndex = 41
         Me.btn_delete.Text = "Delete"
         Me.btn_delete.UseVisualStyleBackColor = True
@@ -126,9 +124,9 @@ Partial Class Kasir
         Me.GroupBox1.Controls.Add(Me.Label4)
         Me.GroupBox1.Controls.Add(Me.Label3)
         Me.GroupBox1.Controls.Add(Me.Label2)
-        Me.GroupBox1.Location = New System.Drawing.Point(45, 58)
+        Me.GroupBox1.Location = New System.Drawing.Point(54, 50)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(361, 385)
+        Me.GroupBox1.Size = New System.Drawing.Size(369, 384)
         Me.GroupBox1.TabIndex = 36
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Data Kasir"
@@ -162,7 +160,7 @@ Partial Class Kasir
         'Label12
         '
         Me.Label12.AutoSize = True
-        Me.Label12.Location = New System.Drawing.Point(6, 142)
+        Me.Label12.Location = New System.Drawing.Point(10, 138)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(38, 13)
         Me.Label12.TabIndex = 29
@@ -196,7 +194,7 @@ Partial Class Kasir
         '
         Me.agama.FormattingEnabled = True
         Me.agama.Items.AddRange(New Object() {"Islam", "Budha", "Hindhu", "Kristen"})
-        Me.agama.Location = New System.Drawing.Point(103, 163)
+        Me.agama.Location = New System.Drawing.Point(104, 163)
         Me.agama.Name = "agama"
         Me.agama.Size = New System.Drawing.Size(141, 21)
         Me.agama.TabIndex = 14
@@ -205,7 +203,7 @@ Partial Class Kasir
         '
         Me.jenis_kelamin.FormattingEnabled = True
         Me.jenis_kelamin.Items.AddRange(New Object() {"Perempuan", "Laki-Laki"})
-        Me.jenis_kelamin.Location = New System.Drawing.Point(103, 190)
+        Me.jenis_kelamin.Location = New System.Drawing.Point(104, 190)
         Me.jenis_kelamin.Name = "jenis_kelamin"
         Me.jenis_kelamin.Size = New System.Drawing.Size(141, 21)
         Me.jenis_kelamin.TabIndex = 13
@@ -268,7 +266,7 @@ Partial Class Kasir
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(9, 166)
+        Me.Label7.Location = New System.Drawing.Point(10, 166)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(46, 13)
         Me.Label7.TabIndex = 5
@@ -277,7 +275,7 @@ Partial Class Kasir
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(9, 193)
+        Me.Label6.Location = New System.Drawing.Point(10, 193)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(77, 13)
         Me.Label6.TabIndex = 4
@@ -286,7 +284,7 @@ Partial Class Kasir
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(6, 115)
+        Me.Label5.Location = New System.Drawing.Point(10, 115)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(78, 13)
         Me.Label5.TabIndex = 3
@@ -295,7 +293,7 @@ Partial Class Kasir
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(6, 90)
+        Me.Label4.Location = New System.Drawing.Point(10, 86)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(75, 13)
         Me.Label4.TabIndex = 2
@@ -304,7 +302,7 @@ Partial Class Kasir
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(6, 59)
+        Me.Label3.Location = New System.Drawing.Point(10, 59)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(67, 13)
         Me.Label3.TabIndex = 1
@@ -313,60 +311,38 @@ Partial Class Kasir
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(6, 32)
+        Me.Label2.Location = New System.Drawing.Point(10, 32)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(50, 13)
         Me.Label2.TabIndex = 0
         Me.Label2.Text = "ID Kasir :"
         '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Modern No. 20", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(65, -34)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(191, 29)
-        Me.Label1.TabIndex = 35
-        Me.Label1.Text = "Selamat Datang"
-        '
         'OpenFile1
         '
         Me.OpenFile1.FileName = "OpenFileDialog1"
-        '
-        'btn_exit
-        '
-        Me.btn_exit.Location = New System.Drawing.Point(630, 408)
-        Me.btn_exit.Name = "btn_exit"
-        Me.btn_exit.Size = New System.Drawing.Size(76, 32)
-        Me.btn_exit.TabIndex = 48
-        Me.btn_exit.Text = "Exit"
-        Me.btn_exit.UseVisualStyleBackColor = True
         '
         'Kasir
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(759, 581)
-        Me.Controls.Add(Me.btn_exit)
+        Me.ClientSize = New System.Drawing.Size(707, 563)
+        Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnCancel)
-        Me.Controls.Add(Me.lblselamat)
         Me.Controls.Add(Me.DGV2)
         Me.Controls.Add(Me.btn_simpan)
         Me.Controls.Add(Me.btn_delete)
         Me.Controls.Add(Me.GroupBox1)
-        Me.Controls.Add(Me.Label1)
         Me.Name = "Kasir"
         Me.Text = "Kasir"
         CType(Me.DGV2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
 
+    Friend WithEvents btnExit As Button
     Friend WithEvents btnCancel As Button
-    Friend WithEvents lblselamat As Label
     Friend WithEvents DGV2 As DataGridView
     Friend WithEvents btn_simpan As Button
     Friend WithEvents btn_delete As Button
@@ -393,7 +369,5 @@ Partial Class Kasir
     Friend WithEvents Label4 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
-    Friend WithEvents Label1 As Label
     Friend WithEvents OpenFile1 As OpenFileDialog
-    Friend WithEvents btn_exit As Button
 End Class

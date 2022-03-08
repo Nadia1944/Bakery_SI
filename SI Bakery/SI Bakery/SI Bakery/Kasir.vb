@@ -160,10 +160,6 @@ Public Class Kasir
     '        PictureBox1.ImageLocation = OpenFile1.FileName
     '        foto_diri.Text = OpenFile1.FileName
     '    End Sub
-
-    Private Sub btn_exit_Click(sender As Object, e As EventArgs) Handles btn_exit.Click
-        Me.Close()
-    End Sub
     Private Sub id_kasir_TextChanged(sender As Object, e As EventArgs) Handles id_kasir.TextChanged
         Try
             Call koneksiDB()
@@ -192,5 +188,9 @@ Public Class Kasir
         Catch ex As Exception
             MsgBox(ex.ToString())
         End Try
+    End Sub
+
+    Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
+        Me.Close()
     End Sub
 End Class
