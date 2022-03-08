@@ -54,7 +54,7 @@ Partial Class Data_Pelanggan
         Me.GroupBox3.Size = New System.Drawing.Size(422, 283)
         Me.GroupBox3.TabIndex = 8
         Me.GroupBox3.TabStop = False
-        Me.GroupBox3.Text = "Detail Menu"
+        Me.GroupBox3.Text = "Detail Pelanggan"
         '
         'DGV
         '
@@ -147,7 +147,7 @@ Partial Class Data_Pelanggan
         Me.GroupBox1.Size = New System.Drawing.Size(234, 200)
         Me.GroupBox1.TabIndex = 6
         Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "Input Data Menu"
+        Me.GroupBox1.Text = "Input Data Pelanggan"
         '
         'txt_alamat
         '

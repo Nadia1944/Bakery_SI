@@ -180,9 +180,9 @@ Partial Class Data_Menu
         Me.Label4.AutoSize = True
         Me.Label4.Location = New System.Drawing.Point(6, 111)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(70, 13)
+        Me.Label4.Size = New System.Drawing.Size(71, 13)
         Me.Label4.TabIndex = 8
-        Me.Label4.Text = "Varian          :"
+        Me.Label4.Text = "Varian Rasa :"
         '
         'Label3
         '

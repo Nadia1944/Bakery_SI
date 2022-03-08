@@ -3,7 +3,7 @@
         Kasir.Show()
     End Sub
 
-    Private Sub TransaksiToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles TransaksiToolStripMenuItem1.Click
+    Private Sub TransaksiToolStripMenuItem1_Click(sender As Object, e As EventArgs)
         Transaksi.Show()
     End Sub
 
